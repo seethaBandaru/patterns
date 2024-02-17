@@ -1,0 +1,9 @@
+#down pyramid
+n=int(input())
+for i in range(0,n):
+    m=" "
+    p=n-i
+    while p > 0:
+        m= m+str(p)+" "
+        p=p-1
+    print(m)
