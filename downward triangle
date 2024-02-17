@@ -1,0 +1,6 @@
+#downward triangle pattern
+n=int(input())
+m=n*2-1
+for i in range(n+1):
+    print(" "*i + "*"*m)
+    m=m-2
